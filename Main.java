@@ -25,7 +25,7 @@ public class Main {
         clipboard.setContents(stringSection, null);
 
         System.out.println("How many times do spam?");
-        int dotime = scanner.nextInt();
+        int dotime = scanner.nextInt() - 1;
         int counter = 0;
 
 
